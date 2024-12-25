@@ -78,7 +78,7 @@ def kfold_cv():
     st.success("The model has been trained and is ready for download.")
 
     if st.button("Download the Trained Model"):
-        model_folder = r"C:\Users\user\Desktop\jeah\ITD105\LABORATORY2\Models"
+        model_folder = r"C:\Users\jeahp\Desktop\ITD105\Lab2\Models"
         if not os.path.exists(model_folder):
             os.makedirs(model_folder)
 
